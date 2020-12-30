@@ -9,12 +9,12 @@
 
     background-color: $secondary;
 }
-.timeline-pointer{
+.timeline__pointer{
     position: relative;
     display: flex;
     justify-content: center;
 }
-.timeline-pointer::before{
+.timeline__pointer::before{
     content: '';
     position: absolute;
     top: -3px;

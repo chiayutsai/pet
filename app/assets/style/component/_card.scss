@@ -4,7 +4,7 @@
     height: 100%;
     
 }
-.card-sm{
+.card--sm{
     @include media-breakpoint-up(sm) {
         @include size(128px);
         font-size: 20px;
@@ -34,7 +34,7 @@
     }
    
 }
-.card-sm.active{
+.card--sm.active{
     border: 3px solid $secondary;
     color: $primary;
     span{
